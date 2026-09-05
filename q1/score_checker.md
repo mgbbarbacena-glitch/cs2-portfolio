@@ -9,6 +9,7 @@ In this activity, I improved a Student Score Checker program by applying proper 
 selection structures.
 The program accepts a student score from 0 to 100 and determines the appropriate classification.
 
+
 The classifications are:
 
 | Score | Classification |
