@@ -41,7 +41,7 @@ What information does the program need?
 **Maximum valid score:**
 >100
 
-##Possible Outputs
+##Possible Outputs:
 List all possible outputs of the program.
 1. Outstanding
 2. Very Satisfactory
