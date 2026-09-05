@@ -78,5 +78,11 @@ ELSE IF score >= 75 THEN
     DISPLAY "Satisfactory"
 ELSE
     DISPLAY "Needs Improvement"
-
+....
 END
+
+--------------
+
+# Part 4 - Clean Code Implementation
+## Source code: 
+![Score Checker Source Code](./q1/score_checker.py)
