@@ -34,8 +34,10 @@ What information does the program need?
 >The program needs a student's score.
 
 ##Valid Range
+
 **Minimum valid score:**
 >0
+
 **Maximum valid score:**
 >100
 
