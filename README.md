@@ -11,4 +11,4 @@ LINKS:
 
 [hello.py](q1/hello.py)
 
-[source_checker.md](q1/source_checker.md)
+[score_checker.md](q1/score_checker.md)
