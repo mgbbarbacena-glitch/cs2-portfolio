@@ -28,7 +28,8 @@ Scores below 0 or above 100 is considered invalid.
 -----
 
 #Part 1 - Analyze the Logic
-##Input
+
+##Input:
 What information does the program need?
 >The program needs a student's score.
 
