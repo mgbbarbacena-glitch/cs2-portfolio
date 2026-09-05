@@ -13,15 +13,11 @@ The program accepts a student score from 0 to 100 and determines the appropriate
 -----
 
 The classifications are:
-
 | Score | Classification |
-
+| --: | --- |
 | 90-100 | Outstanding |
-
 | 80-89 | Very Satisfactory |
-
 | 75-79 | Satisfactory |
-
 | below 75 | Needs Improvement |
 
 Scores below 0 or above 100 is considered invalid.
@@ -86,3 +82,19 @@ END
 # Part 4 - Clean Code Implementation
 ## Source code: 
 [Score Checker Source Code](q1/score_checker.py)
+
+----------
+
+# Part 5 - Testing
+| Test | Input | Purpose | Expected Output | Actual Output | Result |
+| --- | ---: | ---| --- |--- | --- |
+| 1 | -1 | Below minimum | Invalid Score | Invalid Score | Pass |
+| 2 | 0 | Minimum boundary | Needs Improvement | Needs Improvement | Pass |
+| 3 | 74 | Below satisfactory boundary | Needs Improvement | Needs Improvement | Pass |
+| 4 | 75 | Satisfactory boundary | Satisfactory | Satisfactory | Pass |
+| 5 | 80 | Very Satisfactory boundary | Very Satisfactory | Very Satisfactory | Pass |
+| 6 | 90 | Outstanding boundary | Outstanding | Outstanding | Pass |
+| 7 | 100 | Maximum boundary | Outstanding | Outstanding | Pass |
+| 8 | 101 | Above maximum | Invalid Score Invalid Score | Pass |
+
+...
