@@ -15,6 +15,7 @@ The classifications are:
 | Score | Classification |
 
 | 90-100 | Outstanding |
+
 | 80-89 | Very Satisfactory |
 
 | 75-79 | Satisfactory |
