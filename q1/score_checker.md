@@ -60,7 +60,7 @@ Explain how the program decides which classification should be displayed.
 
 # Part 2 - Flowchart
 ##Flowchart
-![Score Checker Flowchart](./q1/score_checker_flowchart.png)
+[Score Checker Flowchart](q1/score_checker_flowchart.png)
 
 # Part 3 - Pseudocode
 
@@ -85,4 +85,4 @@ END
 
 # Part 4 - Clean Code Implementation
 ## Source code: 
-![Score Checker Source Code](./q1/score_checker.py)
+[Score Checker Source Code](q1/score_checker.py)
