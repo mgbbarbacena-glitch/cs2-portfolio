@@ -49,10 +49,10 @@ List all possible outputs of the program.
 4. Needs Improvement
 5. Invalid Score
 
-##Boundary Condition
+##Boundary Condition:
 What condition will you use to determine whether the score is valid?
 >The score is invalid if it is less than 0 or greater than 100.
 
-##Multiple Decision Paths
+##Multiple Decision Paths:
 Explain how the program decides which classification should be displayed.
 >The program checks the score and follows the correct condition. If it displays Outstanding for 90-100, Very Satisfactory for 80-89, Satisfactory for 75-79, and Needs Improvement for scores below 75.
