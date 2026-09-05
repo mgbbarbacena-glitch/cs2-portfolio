@@ -55,4 +55,4 @@ What condition will you use to determine whether the score is valid?
 
 ##Multiple Decision Paths:
 Explain how the program decides which classification should be displayed.
->The program checks the score and follows the correct condition. If it displays Outstanding for 90-100, Very Satisfactory for 80-89, Satisfactory for 75-79, and Needs Improvement for scores below 75.
+>The program checks the score and follows the correct condition. It displays Outstanding for 90-100, Very Satisfactory for 80-89, Satisfactory for 75-79, and Needs Improvement for scores below 75.
