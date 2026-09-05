@@ -28,7 +28,7 @@ Scores below 0 or above 100 is considered invalid.
 
 -----
 
-#Part 1 - Analyze the Logic
+# Part 1 - Analyze the Logic
 
 ##Input:
 What information does the program need?
@@ -58,7 +58,8 @@ What condition will you use to determine whether the score is valid?
 Explain how the program decides which classification should be displayed.
 >The program checks the score and follows the correct condition. It displays Outstanding for 90-100, Very Satisfactory for 80-89, Satisfactory for 75-79, and Needs Improvement for scores below 75.
 
-##Flowchart:
+# Part 2
+##Flowchart
 ![Score Checker Flowchart](./q1/score_checker_flowchart.png)
 
 # Part 3 - Pseudocode
