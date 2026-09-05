@@ -12,3 +12,12 @@ The program accepts a student score from 0 to 100 and determines the appropriate
 The classifications are:
 | Score | Classification |
 | 90-100 | Outstanding |
+| 80-89 | Very Satisfactory |
+| 75-79 | Satisfactory |
+| below 75 | Needs Improvement |
+
+Score below 0 or above 100 is considered invalid.
+
+-----
+
+
