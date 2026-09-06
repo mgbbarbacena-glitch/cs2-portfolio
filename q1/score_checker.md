@@ -56,7 +56,8 @@ Explain how the program decides which classification should be displayed.
 
 # Part 2 - Flowchart
 ##Flowchart
-[Score Checker Flowchart]](https://github.com/mgbbarbacena-glitch/cs2-portfolio/blob/main/q1/score_checker_flowchart.png?raw=true))
+<img width="1012" height="747" alt="image" src="https://github.com/user-attachments/assets/1f9e8daa-674e-47ba-91e2-f7084ae4c14d" />
+
 
 # Part 3 - Pseudocode
 
