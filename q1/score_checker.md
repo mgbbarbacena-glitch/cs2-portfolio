@@ -95,6 +95,6 @@ END
 | 5 | 80 | Very Satisfactory boundary | Very Satisfactory | Very Satisfactory | Pass |
 | 6 | 90 | Outstanding boundary | Outstanding | Outstanding | Pass |
 | 7 | 100 | Maximum boundary | Outstanding | Outstanding | Pass |
-| 8 | 101 | Above maximum | Invalid Score Invalid Score | Pass |
+| 8 | 101 | Above maximum | Invalid Score | Invalid Score | Pass |
 
 ...
