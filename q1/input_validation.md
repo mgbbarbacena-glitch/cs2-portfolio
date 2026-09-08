@@ -25,3 +25,11 @@ The program validates:
 --------
 
 # Part A - Validation Requirements
+
+| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
+| --- | --- | --- | --- | --- | --- |
+| Student Name | | | | | |
+| Age | | | | | |
+| Grade Level | | | | | |
+| Email Address | | | | | |
+| Registration Code | | | | | |
