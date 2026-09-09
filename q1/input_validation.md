@@ -101,14 +101,15 @@ ELSE
     END IF
     
     END
-    ```
+```
 
->Note: I used AI po to ask how to end the pseudocode if there are plenty of else and if
+> Note: I used AI po to ask how to end the pseudocode if there are plenty of else and if
+
 
 # Part C - Program Implementation
 
 ## Programming Language
->Python Compiler
+> Python Compiler
 
 ## Source Code File
 ['workshop_validator.py'](workshop_validator.py)
