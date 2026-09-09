@@ -28,11 +28,11 @@ The program validates:
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 | --- | --- | --- | --- | --- | --- |
-| Student Name | | | | | |
-| Age | | | | | |
-| Grade Level | | | | | |
-| Email Address | | | | | |
-| Registration Code | | | | | |
+| Student Name | Text | Presence | Blank | Name must not be blank | Student name is required. |
+| Age | Integer from 11-18 | Data Type and Range | "fourteen", "25" | Must be an integer and between 11 and 18 | Age must be a number./ Age must be from 11 to 18.|
+| Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable Value | 13 | Must be one of the accepted grade levels | Invalid grade level. |
+| Email Address | Text containing @ and . | Pattern |studentpshs.edu.ph | Must contain both @ and .| Invalid email address. |
+| Registration Code | Exactly 6 characters | Length | ABC | Must contain exactly 6 characters | The registration code must contain exactly 6 characters. |
 
 ----
 
