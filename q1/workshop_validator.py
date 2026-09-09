@@ -49,4 +49,4 @@ else:
                         print("Email:", email)
                         print("Registration Code:", regcode)
 
->Note: I also used AI here po for the character limit only, my prompt was "how to make a limit in characters in python like for example the character limit in the input is 6"
+(Note: I also used AI here po for the character limit only, my prompt was "how to make a limit in characters in python like for example the character limit in the input is 6")
