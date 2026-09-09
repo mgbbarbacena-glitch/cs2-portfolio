@@ -57,7 +57,9 @@ The program validates:
 ## Pseudocode
 
 START
+
 INPUT student name
+
 IF student name is blank THEN
     DISPLAY "REGISTRATION NOT ACCEPTED"
     DISPLAY "Student name is required."
@@ -101,6 +103,8 @@ ELSE
 
 >Note: I used AI po to ask how to end the pseudocode if there are plenty of else and if
 
+# Part C - Python Code Link:
+[Workshop Validator](workshop_validator.py)
 
             
         
