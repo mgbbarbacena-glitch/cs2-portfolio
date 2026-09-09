@@ -103,7 +103,8 @@ ELSE
 
 >Note: I used AI po to ask how to end the pseudocode when using a lot of else and if.
 
-
+# Part C- Python File Link:
+[Workshop Validator Python](q1/workshop_validator.py)
 
 
             
