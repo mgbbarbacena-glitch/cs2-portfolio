@@ -193,7 +193,7 @@ else:
 # Part D- Testing
 
 | # | Test | Input/ Condition | Validation Being Tested | Expected Output | Actual Output | Result |
-| ---: | --- | --- | --- | --- | --- |
+| ---: | --- | --- | --- | --- | --- | --- |
 | 1 | All inputs valid | Normal case | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
 | 2 | Blank student name | Presence | REGISTRATION NOT ACCEPTED/ Student name is required. | REGISTRATION NOT ACCEPTED/ Student name is required. | PASS |
 | 3 | Age = fourteen | Data type | REGISTRATION NOT ACCEPTED/ Age must be a number. | REGISTRATION NOT ACCEPTED / Age must be a number. | PASS |
