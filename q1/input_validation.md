@@ -54,56 +54,7 @@ The program validates:
 
 # Part B - Program Design
 
-## Pseudocode
-
-
-START
-    INPUT name
-    INPUT age
-    INPUT grade
-    INPUT email
-    INPUT reg
-
-    IF name == "" THEN
-        PRINT "REGISTRATION NOT ACCEPTED"
-        PRINT "Student name is required."
-        
-    ELSE IF age.isdigit() == FALSE THEN
-        PRINT "REGISTRATION NOT ACCEPTED"
-        PRINT "Age must be a number."
-        
-    ELSE IF age == "11" OR age == "12" OR age == "13" OR age == "14" OR age == "15" OR age == "16" OR age == "17" OR age == "18" THEN
-        
-        IF grade == "7" OR grade == "8" OR grade == "9" OR grade == "10" OR grade == "11" OR grade == "12" THEN
-            
-            IF "@" IN email THEN
-                
-                IF LENGTH(reg_code) == 6 THEN
-                    PRINT "------------------------------"
-                    PRINT "REGISTRATION ACCEPTED"
-                    PRINT "------------------------------"
-                    PRINT "Student:", name
-                    PRINT "Age:", age
-                    PRINT "Grade Level:", grade
-                    PRINT "Email:", email
-                    PRINT "Registration Code:", reg_code
-                    
-                ELSE
-                    PRINT "REGISTRATION NOT ACCEPTED"
-                    PRINT "The registration code must contain exactly 6 characters."
-                ENDIF
-                
-            ELSE
-                PRINT "REGISTRATION NOT ACCEPTED"
-                PRINT "Email must contain '@'."
-            ENDIF
-            
-        ELSE
-            PRINT "REGISTRATION NOT ACCEPTED"
-            PRINT "Invalid grade level."
-        ENDIF
-        
-    ELSE
+## Flowchart
         PRINT "REGISTRATION NOT ACCEPTED"
         PRINT "Age must be from 11 to 18."
     ENDIF
