@@ -50,7 +50,7 @@ The program validates:
 >The email address should contain the '@' symbol.
 
 ### 5. What length requirement did you use for the registration code?
->The registration code had a limit of 6 characters.
+>The registration code has a limit of 6 characters.
 
 # Part B - Program Design
 
@@ -101,8 +101,11 @@ ELSE
     
     END
 
->Note: I used AI po to ask how to end the pseudocode when using a lot of else
-  
+>Note: I used AI po to ask how to end the pseudocode when using a lot of else and if.
+
+
+
+
             
         
 
