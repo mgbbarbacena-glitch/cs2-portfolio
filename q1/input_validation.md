@@ -55,7 +55,4 @@ The program validates:
 # Part B - Program Design
 
 ## Flowchart
-        PRINT "REGISTRATION NOT ACCEPTED"
-        PRINT "Age must be from 11 to 18."
-    ENDIF
-END
+
