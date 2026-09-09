@@ -54,5 +54,57 @@ The program validates:
 
 # Part B - Program Design
 
-## Flowchart
+## Pseudocode
+
+START
+
+INPUT student name
+
+IF student name is blank THEN
+    DISPLAY "REGISTRATION NOT ACCEPTED"
+    DISPLAY "Student name is required."
+ELSE
+    INPUT age
+
+    IF age is not a number THEN
+        DISPLAY "REGISTRATION NOT ACCEPTED"
+        DISPLAY "Age must be a number."
+    ELSE
+        CONVERT age to integer
+
+        IF age is less than 11 OR age is greater than 18 THEN
+            DISPLAY "REGISTRATION NOT ACCEPTED"
+            DISPLAY "Age must be from 11 to 18."
+        ELSE
+            INPUT grade level
+
+            IF grade level is not 7, 8, 9, 10, 11, or 12 THEN
+                DISPLAY "REGISTRATION NOT ACCEPTED"
+                DISPLAY "Invalid email address."
+            ELSE
+                INPUT registration code
+
+                IF registration code does not have exactly 6 characters THEN
+                    DISPLAY "REGISTRATION NOT ACCEPTED" 
+                    DISPLAY "The registration code must contain exactly 6 characters
+                ELSE
+                    DISPLAY "REGISTRATION ACCEPTED"
+                    DISPLAY student name
+                    DISPLAY age
+                    DISPLAY grade level
+                    DISPLAY email
+                    DISPLAY registration code
+                END IF
+            END IF
+        END IF
+    END IF
+    
+    END
+
+>Note: I used AI po to ask how to end the pseudocode when using a lot of else
+  
+            
+        
+
+
 
