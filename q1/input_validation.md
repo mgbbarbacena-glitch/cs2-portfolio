@@ -55,7 +55,7 @@ The program validates:
 # Part B - Program Design
 
 ## Pseudocode
-'''text
+
 START
     INPUT name
     INPUT age
