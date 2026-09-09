@@ -57,9 +57,7 @@ The program validates:
 ## Pseudocode
 
 START
-
 INPUT student name
-
 IF student name is blank THEN
     DISPLAY "REGISTRATION NOT ACCEPTED"
     DISPLAY "Student name is required."
