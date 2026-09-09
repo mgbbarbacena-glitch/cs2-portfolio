@@ -56,6 +56,7 @@ The program validates:
 
 ## Pseudocode
 
+
 START
     INPUT name
     INPUT age
