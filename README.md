@@ -12,3 +12,5 @@ LINKS:
 [hello.py](q1/hello.py)
 
 [score_checker.py](score_checker.py)
+
+[input_validation.md](q1/input_validation.md)
