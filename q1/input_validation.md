@@ -197,16 +197,12 @@ else:
 | 1 | All inputs valid | Normal case | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
 | 2 | Blank student name | Presence | REGISTRATION NOT ACCEPTED / Student name is required. | REGISTRATION NOT ACCEPTED / Student name is required. | PASS |
 | 3 | Age = `fourteen` | Data type | REGISTRATION NOT ACCEPTED / Age must be a number. | REGISTRATION NOT ACCEPTED / Age must be a number. | PASS |
-| 4 | Age = `11` | Minimum boundary | boundary
-Registration continues to the next input | boundary
-Registration continues to the next input | PASS |
-| 5 | Age = `18` | Maximum boundary | boundary
-Registration continues to the next input | boundary
-Registration continues to the next input | PASS |
+| 4 | Age = `11` | Minimum boundary | Registration continues to the next input | Registration continues to the next input | PASS |
+| 5 | Age = `18` | Maximum boundary | Registration continues to the next input | Registration continues to the next input | PASS |
 | 6 | Age = `10` | Range | REGISTRATION NOT ACCEPTED / Age must be from 11 to 18. | REGISTRATION NOT ACCEPTED / Age must be from 11 to 18. | PASS |
 | 7 | Grade Level = `13` | Acceptable value | REGISTRATION NOT ACCEPTED / Invalid grade level. | REGISTRATION NOT ACCEPTED / Invalid grade level. | PASS |
 | 8 | Email = `studentpshs.edu.ph` | Pattern | REGISTRATION NOT ACCEPTED / Invalid email address. | REGISTRATION NOT ACCEPTED / Invalid email address. | PASS |
-| 9 | Registration Code = `ABC` | Length | REGISTRATION NOT ACCEPTED / Code must contain exactly 6 characters. | REGISTRATION NOT ACCEPTED / Code must contain exactly 6 characters. | PASS |
+| 9 | Registration Code = `ABC` | Length | REGISTRATION NOT ACCEPTED / The registration code must contain exactly 6 characters. | REGISTRATION NOT ACCEPTED / The registration code must contain exactly 6 characters. | PASS |
 | 10 | Registration Code = `CS2026` | Valid length | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
         
 ---
