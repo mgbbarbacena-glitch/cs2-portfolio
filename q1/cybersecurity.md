@@ -1,8 +1,11 @@
 # Fundamentals of Cybersecurity and Data Privacy
 
 **Activity:** PSHS Secure Club Registration System
+
 **Name:** Ma. Gia B. Barbacena
+
 **Section:** Dahlia
+
 **Quarter:** 1
 
 ---
