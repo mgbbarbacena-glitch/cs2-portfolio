@@ -33,7 +33,7 @@ expected, and appropriate input.
 - Application
 - Device
 - Financial information
-> Explain your answer.
+> It says not to collect passwords, OTPs, home address, or banking information.
 ### 4. What information could be exposed or misused?
 > Their username and password can be obtained and used to endanger the student's account.
 ### 5. What should the user do to reduce the risk?
