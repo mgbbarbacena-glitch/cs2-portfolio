@@ -84,7 +84,9 @@ Why is it safer to collect only information that the program actually needs?
 ---
 
 # Part D - Secure Program Implementation
+
 ## Program
+
 Create a simple **PSHS Club Registration System**.
 The program should collect only:
 - Student Name
@@ -92,6 +94,7 @@ The program should collect only:
 - Club Choice
 - School Email
 - Attendance Status
+
 It should **not request passwords, OTPs, banking information, or unnecessary personal information**
 
 ---
@@ -101,6 +104,76 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ---
 ## Final Code
 ```python
-# Paste your final program here.
+ame = input("Enter student name: ")
+
+if name == "":
+    print("REGISTRATION NOT ACCEPTED")
+    print("Student name is required.")
+
+else:
+    section = input("Enter section: ")
+
+    if section != "Dahlia", "dahlia":
+        print("REGISTRATION NOT ACCEPTED")
+        print("Invalid section.")
+
+    else:
+        club = input("Enter club choice: ")
+
+        if club not in ["Robotics", "Science", "Mathematics", "Programming", "robotics", "science", "mathematics", "programming"]:
+            print("REGISTRATION NOT ACCEPTED")
+            print("Please choose a valid club.")
+
+        else:
+            email = input("Enter school email: ")
+
+            if "@" not in email or "." not in email:
+                print("REGISTRATION NOT ACCEPTED")
+                print("Invalid school email.")
+
+            else:
+                attendance = input("Enter attendance status: ")
+
+                if attendance not in ["Present", "Absent", "Late", "present", "absent", "late"]:
+                    print("REGISTRATION NOT ACCEPTED")
+                    print("Invalid attendance status.")
+
+                else:
+                    print("--------------------------------")
+                    print("REGISTRATION ACCEPTED")
+                    print("--------------------------------")
+                    print("Student:", name)
+                    print("Section:", section)
+                    print("Club:", club)
+                    print("Email:", email)
+                    print("Attendance:", attendance)
+                  
 ```
 ---
+
+## Security Practices Applied
+### Required Input
+> A blank input is an invalid input and it will display the error message and validation rule.
+### Allowed Values
+> Explain which fields accept only predefined values.
+### Format Check
+> The email must contain @ and . to check the email is in the basic valid format.
+### Error Messages
+> Clear  error messages help users in quickly fixing what has gone wrong and how to fix it.
+### Data Minimization
+> I didn't collect unnecessary information like passwords or personal details to protect user privacy.
+
+---
+
+# Part E - Testing and Reflection
+## Testing
+| Test | Input Situation | Expected Output | Actual Output | Result |
+|---:|---|---|---|---|
+| 1 | All data valid | REGISTRATION ACCEPTED | | |
+| 2 | Blank student name | | | |
+| 3 | Invalid section | | | |
+| 4 | Invalid club choice | | | |
+| 5 | Email missing `@` | | | |
+| 6 | Email missing `.` | | | |
+| 7 | Invalid attendance status | | | |
+| 8 | Different valid inputs | | | |
