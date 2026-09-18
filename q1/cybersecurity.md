@@ -172,11 +172,26 @@ else:
 ## Testing
 | Test | Input Situation | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|
-| 1 | All data valid | REGISTRATION ACCEPTED | | |
-| 2 | Blank student name | | | |
-| 3 | Invalid section | | | |
-| 4 | Invalid club choice | | | |
-| 5 | Email missing `@` | | | |
-| 6 | Email missing `.` | | | |
-| 7 | Invalid attendance status | | | |
-| 8 | Different valid inputs | | | |
+| 1 | All data valid | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+| 2 | Blank student name | REGISTRATION NOT ACCEPTED, Student name is required. | REGISTRATION NOT ACCEPTED, Student name is required. | PASS |
+| 3 | Invalid section | REGISTRATION NOT ACCEPTED, Invalid section. | REGISTRATION NOT ACCEPTED, Invalid section. | PASS |
+| 4 | Invalid club choice | REGISTRATION NOT ACCEPTED, Please choose a valid club. | REGISTRATION NOT ACCEPTED, Please choose a valid club. | PASS |
+| 5 | Email missing `@` | REGISTRATION NOT ACCEPTED, Invalid school email. | REGISTRATION NOT ACCEPTED, Invalid school email. | PASS |
+| 6 | Email missing `.` | REGISTRATION NOT ACCEPTED, Invalid school email. | REGISTRATION NOT ACCEPTED, Invalid school email. | PASS |
+| 7 | Invalid attendance status | REGISTRATION NOT ACCEPTED, Invalid attendance status. | REGISTRATION NOT ACCEPTED, Invalid attendance status. | PASS |
+| 8 | Different valid inputs | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+
+---
+
+# Reflection
+### 1. What is one cybersecurity threat that can affect an application or user?
+> One type of cyber threat is known as phishing where users are lured into providing private information.
+### 2. How can users reduce the risk of phishing or suspicious messages?
+> Users can avoid clicking on misleading links by checking who sent them, and verifying information with an official source.
+### 3. How can validation rules improve the security of user input?
+> Validation rules ensure that invalid or unexpected information is not entered into the program.A
+### 4. Why should a program avoid collecting unnecessary personal information?
+> A program should avoid unnecessary information because less collected data has less information that can be exposed or misused.
+### 5. How did SG7's input validation concepts become security practices in SG8?
+> The input validation concepts described in SG7 are implemented as security practices by the careful checking of the user input and only accepting the data which follows the rules.
+
