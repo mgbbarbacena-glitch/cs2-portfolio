@@ -63,12 +63,44 @@ Why is it safer to collect only information that the program actually needs?
 ----
 
 # Part C - Security-Focused Validation Rules
-| Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
-Message |
-|---|---|---|---|---|---|
-| Student Name | Student's name | Missing identification | Blank |  Must not be blank | Student name is required.|
-| Section | Teacher-approved section | Incorrect class information | | | |
-| Club Choice | | | | | |
-| School Email | | | | | |
-| Attendance Status | | | | | |
+| Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message | 
+| --- | --- | --- | --- | --- | --- |
+| Student Name | Student's name | Missing identification | Blank | Must not be blank | Student name is required. |
+| Section | Teacher-approved section | Incorrect class information | Gaming | Must match an allowed section | Invalid section. |
+| Club Choice | Robotics, Science, Mathematics, Programming | Invalid club selection | Gaming | Must be one of the allowed clubs | Please enter a valid club. |
+| School Email | School email containing @ and . | Incorrect email format | studentpshs.edu.ph | Must contain both @ and . | Invalid school email. |
+| Attendance Status | Present, Absent, Late | Incorrect attendance record | Maybe | Must be "Present, Absent, or Late" | Invalid attendance status. |
 
+---
+
+## Secure Data Capture Questions
+### 1. What should your program accept?
+> The program should take only the necessary student information that must pass the validation tests.
+### 2. What should your program reject?
+> The program should reject blank names, invalid sections, invalid club choices, invalid e-mail formats, and invalid attendance statuses.
+### 3. How do your validation rules help reduce incorrect or unsafe input?
+> Validation rules prevent the entry of wrong information and ensure that only correct data is stored.
+
+---
+
+# Part D - Secure Program Implementation
+## Program
+Create a simple **PSHS Club Registration System**.
+The program should collect only:
+- Student Name
+- Section
+- Club Choice
+- School Email
+- Attendance Status
+It should **not request passwords, OTPs, banking information, or unnecessary personal information**
+
+---
+## Source Code File
+[`secure_registration.py`](secure_registration.py)
+
+---
+## Final Code
+```python
+# Paste your final program here.
+```
+---
