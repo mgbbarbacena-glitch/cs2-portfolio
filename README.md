@@ -20,3 +20,5 @@ LINKS:
 [workshop_validator.py](q1/workshop_validator.py)
 
 [cybersecurity.md](q1/cybersecurity.md)
+
+[secure_registration.py](q1/secure_registration.py)
