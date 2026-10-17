@@ -22,3 +22,8 @@ print("Total Cost: PHP", total)
 
 
 calculate_change(payment, total)
+
+
+# DOCUMENTATION QUESTIONS
+
+# 1. The calculate_total() function multiplies the price by the quantity. The calculate_change() function checks if the payment is enough and displays the change or the addidtional amount needed.
