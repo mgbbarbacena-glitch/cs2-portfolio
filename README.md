@@ -1,4 +1,4 @@
-# cs2-portfolio
+# Computer Science 2 -- Portfolio
 ## Ma. Gia B. Barbacena
 
 ## 8-Dahlia💜
