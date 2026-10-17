@@ -1,9 +1,9 @@
 # cs2-portfolio
 ## Ma. Gia B. Barbacena
 
-## 8-Dahlia
+## 8-Dahlia💜
 
-links for submission below:
+links for submission below ˚.⋆꒰১ ໒꒱⋆.˚:
 
 ### Quarter 1 Links:
 
@@ -22,3 +22,7 @@ links for submission below:
 [cybersecurity.md](q1/cybersecurity.md)
 
 [secure_registration.py](q1/secure_registration.py)
+
+
+
+### Quarter 2 Links:
