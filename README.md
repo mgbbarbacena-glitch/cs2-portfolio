@@ -27,4 +27,4 @@ links for submission below ˚.⋆꒰১ ໒꒱⋆.˚:
 
 ### Quarter 2 Links:
 
-[canteen_calculator.py](canteen_calculator.py)
+[canteen_calculator.py](q2/canteen_calculator.py)
