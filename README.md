@@ -5,7 +5,8 @@
 
 links for submission below:
 
-LINKS:
+###
+Quarter 1 Links:
 
 [Barbacena_MaGia_Distance.py](q1/Barbacena_MaGia_Distance.py)
 
