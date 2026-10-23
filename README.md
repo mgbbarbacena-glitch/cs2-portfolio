@@ -29,4 +29,4 @@ links for submission below ˚.⋆꒰১ ໒꒱⋆.˚:
 
 [canteen_calculator.py](q2/canteen_calculator.py)
 
-[studentperfeval.py](studentperfeval.py)
+[studentperfeval.py](q2/studentperfeval.py)
