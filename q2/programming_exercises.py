@@ -15,7 +15,7 @@ while number >= 1:
   number -=1
 
 print("Time is up!")
-###Explanation: I used the code displayed in Sir Roffe's previous lesson as a base and experimented it. I made the number 10 because it's the starting number of the output. Then, for the "while number >= 1:", this means that if the number is smaller or equal than 1, it's gonna keep printing numbers from 10-1. For the "number -=1", I made it negative because the numbers are decreaasing, then I printed the Time is up.
+###Explanation: I used the code displayed in Sir Roffe's previous lesson as a base and experimented it. I made the number 10 because it's the starting number of the output. Then, for the "while number >= 1:", this means that if the number is bigger or equal than 1, it's gonna keep printing numbers from 10-1. For the "number -=1", I made it negative because the numbers are decreaasing, then I printed the Time is up.
 
 
 ##Exercise 3: Skip Multiples
