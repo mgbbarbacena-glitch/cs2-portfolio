@@ -33,4 +33,4 @@ def show_table(number):
 numask = int(input("Enter a number:"))
 
 show_table(numask)
-###Explanation: The first line creates a reusable block of code that waits to reveive a value number. For the second line, it loops the numbers 1-10 and it assigns each one to i. For the third line, I admit to have used generative ai to understand how to do it. I understood that it formats the output so that each line shows the full equation and its answer. For the input, it asked the user for the number. For the last line, it defines and calls the function.
+###Explanation: The first line creates a reusable block of code that waits to receive a value number. For the second line, it loops the numbers 1-10 and it assigns each one to i. For the third line, I admit to have used generative ai to understand how to do it. I understood that it formats the output so that each line shows the full equation and its answer. For the input, it asked the user for the number. For the last line, it defines and calls the function.
