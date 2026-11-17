@@ -22,7 +22,7 @@ print("Time is up!")
 for number in range(1, 15):
   if number % 3 != 0:
     print(number)
-###Explanation: I started with setting a range 1 to 15. For the second line, it means if number is divided by 3, then it will only look at the remainder, if it's not equal to zero, it will print the original number.
+###Explanation: I started by setting a range (1, 15). For the second line, the modulo operator gets the remainder when the number is divided by 3. If the remainder is not equal to zero, it means the number is not divisible by 3, so the program prints the original number.
 
 
 ##Exercise 4: Multiplication Table Generator
