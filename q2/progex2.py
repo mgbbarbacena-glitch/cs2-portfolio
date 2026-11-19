@@ -11,5 +11,29 @@ print(school_items[4])
 
 print("First item: ", school_items[0])
 print("Last item: ", school_items[4])
+###Explanation: First I created a list named school_items that has five school supplies. Next, I used print() statements with index numbers to display each item in the list individually. The index starts at 0 so thats why school_items[0] displays the first item and [4] displays the last item.
+
+##Exerccise 2: Travel Destination Manager
+dest = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
+
+print("All Destinations:")
+for destination in dest:
+    print(destination)
+
+print("Destinations from index 1 to 3:")
+print(dest[1:4])
 
 
+search = input("Enter a destination to search for: ")
+
+if search in dest:
+    print("The destination exists in the list.")
+else:
+    print("The destination does not exist in the list.")
+
+
+
+dest[2] = "Iloilo"
+
+print("Updated Destinations:")
+print(dest)
