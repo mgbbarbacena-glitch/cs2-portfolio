@@ -34,7 +34,7 @@ else:
 
 
 dest[2] = "Iloilo"
-###Explanation: Firest, I displayed all the destinations using a for loop. Then, I used slicing to display the destinations in index 1-3. Next, I asked the user to input their destination, the code then checks if its in the list or not. The dest[2] replaces index 2 with Iloilo. Finally, it displays and updates the list. 
 
 print("Updated Destinations:")
 print(dest)
+###Explanation: Firest, I displayed all the destinations using a for loop. Then, I used slicing to display the destinations in index 1-3. Next, I asked the user to input their destination, the code then checks if its in the list or not. The dest[2] replaces index 2 with Iloilo. Finally, it displays and updates the list. 
