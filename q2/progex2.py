@@ -24,7 +24,7 @@ print("Destinations from index 1 to 3:")
 print(dest[1:4])
 
 
-search = input("Enter a destination to search for: ")
+search = input("Enter a destination to search for (Destination should start with a CAPITAL LETTER): ")
 
 if search in dest:
     print("The destination exists in the list.")
