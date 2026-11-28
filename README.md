@@ -31,4 +31,6 @@ links for submission below ˚.⋆꒰১ ໒꒱⋆.˚:
 
 [studentperfeval.py](q2/studentperfeval.py)
 
-[programming_exercises.py](q2/programming_exercises.py)
+[Programming Exercises 1](q2/programming_exercises1.py)
+
+[Programming Exercises 2](q2/programming_exercises2.py)
