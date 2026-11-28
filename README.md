@@ -35,4 +35,5 @@ links for submission below ˚.⋆꒰১ ໒꒱⋆.˚:
 
 [Programming Exercises 2](q2/programming_exercises2.py)
 
-[Programming Exercises 3](q2/programming_exercises3.py]
+[Programming Exercises 3](q2/programming_exercises3.py)
+
